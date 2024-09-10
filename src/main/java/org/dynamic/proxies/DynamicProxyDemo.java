@@ -1,6 +1,5 @@
 package org.dynamic.proxies;
 
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Proxy;
 
 public class DynamicProxyDemo {
