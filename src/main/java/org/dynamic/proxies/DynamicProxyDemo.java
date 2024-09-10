@@ -10,8 +10,5 @@ public class DynamicProxyDemo {
                 new Class[]{MyInterface.class}, new TestInvocationHandler(realObject));
 
         proxyObject.sayHello();
-
-        //========================= create new object using reflection
-        MyInterfaceImpl.class.getConstructors()[0].newInstance();
     }
 }

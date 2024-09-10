@@ -4,9 +4,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 public class TestInvocationHandler implements InvocationHandler {
-    Object target;
+    MyInterface target;
 
-    public TestInvocationHandler(Object target) {
+    public TestInvocationHandler(MyInterface target) {
         this.target = target;
     }
 
